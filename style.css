@@ -1,0 +1,236 @@
+    .container {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      margin-top: 30px;
+      width: 90%;
+      max-width: 450px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      border-radius: 30px;
+    }
+
+    .image {
+      padding-top: 20px;
+    }
+
+    img {
+      border-radius: 5px;
+      width: 90px;
+
+    }
+
+    .titre p {
+      width: auto;
+      margin: auto;
+      padding: 0% 20% 3% 20%;
+
+    }
+
+    .bouton_1 button, .bouton_2 button ,
+    .bouton_3 button {
+      border: 0;
+      color: white;
+      height: 40px;
+      width: 55%;
+      border-radius: 50px;
+      margin: 4px;
+      font-weight: bold;
+    }
+    .bouton_1 button {
+      background-color: rgb(218, 4, 4);
+    }
+    .bouton_2 button {
+      background-color: rgb(57, 93, 255);
+
+    }
+    
+    .bouton_3 button {
+      border: solid 0.1px rgb(138, 138, 138);
+      color: black;
+      background-color: white;
+    }
+
+    .bouton_2 button:hover {
+      background-color: rgb(0, 28, 155);
+    }
+
+    .bouton_1 button:hover {
+      background-color: rgb(173, 3, 3);
+    }
+
+
+    .bouton_3 button:hover {
+      background-color: rgb(230, 230, 230);
+    }
+
+
+    a:hover {
+      text-decoration: underline !important;
+    }
+
+
+
+
+   
+
+    .description {
+
+
+      margin: auto;
+      padding-bottom: 10px;
+    }
+
+    .footer {
+
+      padding: 10px;
+      border-radius: 0 0 28px 28px;
+      margin-bottom: -10px;
+      font-weight: bold;
+    }
+
+    .footer:hover {
+      text-decoration: underline;
+    }
+
+    .close {
+
+      font-size: 27px;
+      text-align: center;
+      font-weight: bold;
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border-radius: 110px;
+      left: 90%;
+      top: 2%;
+
+    }
+
+    .close:hover {
+      background-color: rgb(233, 233, 233);
+      cursor: pointer;
+    }
+
+    .traire {
+      border: none;
+      border-top: solid 1px rgb(190, 190, 190);
+      width: 100px;
+      left: 38%;
+      position: absolute;
+
+    }
+
+
+    span {
+      opacity: 1;
+      font-size: 11px;
+      text-align: center;
+      margin: -10px;
+      padding: -200px;
+    }
+
+    .description a {
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      color: black;
+
+    }
+
+    .con {
+      margin-top: 20px;
+    }
+
+
+    .description div:first-child {
+      opacity: 0.8;
+      font-size: 12px;
+      text-align: center;
+      margin-right: 5px;
+    }
+
+
+
+
+    .modal {
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    input {
+      border: solid 2px rgb(204, 204, 204);
+      padding: 12px;
+      border-radius: 13px;
+      margin-bottom: 10px;
+      width: 220px;
+    }
+
+    input:hover {
+      border: solid 2px rgb(146, 146, 146);
+
+    }
+
+    input:focus {
+      border: solid 2px rgb(204, 204, 204);
+      border-color: blue;
+      outline-color: blue;
+
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      width: 100px;
+      margin-left: 110px;
+    }
+
+    .mot {
+      display: block;
+      text-align: left;
+      width: 200px;
+      margin-left: 110px;
+      margin-bottom: 10px;
+    }
+
+    .mot:hover {
+      text-decoration: underline;
+    }
+
+    .eyeopne {
+      display: block;
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      position: absolute;
+      margin: -40px 30px 50px 320px;
+
+    }
+
+    .eyeclose {
+      display: none;
+      cursor: pointer;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin: -40px 30px 50px 320px;
+    }
+
+    .eyeclose:hover {
+      background-color: rgb(226, 226, 226);
+    }
+
+    .eyeopne:hover {
+      background-color: rgb(226, 226, 226);
+    }
